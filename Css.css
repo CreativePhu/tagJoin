@@ -1,0 +1,64 @@
+.clear{
+    clear: both;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 910px;
+}
+.listJoin{
+    width: 800px;
+    background-color: rgb(244, 226, 248);
+    border: solid 0.5px rgb(152, 19, 185);
+    position: relative;
+}
+.listJoin .tagList{
+    display: flex;
+    justify-content: space-between;
+}
+.tagList .tag{
+    background-color: rgb(243, 198, 232);
+    width: calc(100%/4);
+    border: solid 2px rgb(209, 15, 226);
+}
+.tagList .tag:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+.tagList .textTag{
+    line-height: 16px;
+    text-align: center;
+    font-weight: bold;
+    height: 16px;
+    font-size: 18px;
+    opacity: 0.5;
+}
+.crossbar{
+    height: 4px;
+    background-color: rgb(219, 131, 236);
+    width: calc(100%/4);
+    background-color: blueviolet;
+    border-radius: 10px;
+    position: absolute;
+    transition: all 1s ease;
+}
+.contentList{
+    
+}
+.contentList .content{
+    padding: 0px 5%;
+    display: none;
+}
+.content .titleContent{
+
+}
+.content .textContent{
+    
+}
+.hideContent{
+    display: block!important;
+}
+.opacityText{
+    opacity: 0.9!important;
+}
